@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="Doctors Required"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:background="@color/Blue"/>
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:padding="10sp"
+                android:text="Anesthesiologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Cardiologist"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Orthopedic Surgeon"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Gastroenterologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Neurologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Gynecologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Ophthalmologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Plastic Surgeons"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Urologists"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Dentist"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facility Required"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:background="@color/Blue"/>
+
+            <Switch
+                android:id="@+id/switch21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Pathology"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="O.T."
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch23"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White"
+                android:text="Req1"
+                android:textAlignment="center" />
+
+            <Switch
+                android:id="@+id/switch24"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/White1"
+                android:text="Req2"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:text="SUBMIT" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
